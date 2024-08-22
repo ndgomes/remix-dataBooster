@@ -4,12 +4,14 @@
 
 The Data Booster application is designed to provide a user-friendly interface for engaging with educational exercises. Users can navigate through various exercises which include video content and multiple-choice questions.
 
+
 ## Project Structure
 
 - **routes/\_index.tsx**: The main entry point for the application, handling data fetching, state management, and rendering of the exercise content.
 - **ui/videoExercise.tsx**: Component for displaying video exercises.
 - **ui/multipleChoiceExercise.tsx**: Component for displaying multiple-choice exercises.
 - **ui/buttons.tsx**: Components for navigation buttons (left and right).
+
 
 ## Features
 
@@ -27,6 +29,7 @@ The Data Booster application is designed to provide a user-friendly interface fo
    - Users can navigate between exercises using "Previous" and "Next" buttons.
    - Buttons are hidden when navigation is not possible (e.g: at the beginning or end of the list).
 
+
 ## Implementation Details
 
 ### Data Handling
@@ -40,6 +43,7 @@ The Data Booster application is designed to provide a user-friendly interface fo
 ### Responsive Design
 
 - The video player and exercise components are designed to be responsive, adapting to different screen sizes.
+
 
 ## Additional Features
 
@@ -67,6 +71,7 @@ Given more time, the following features would be implemented:
 
 6. **Localization and Internationalization**:
    - Support multiple languages to reach a broader audience.
+
 
 ## Setup and Installation
 
