@@ -5,9 +5,8 @@ import { useLoaderData } from "@remix-run/react";
 import { json, type LoaderFunction, type MetaFunction } from "@remix-run/node";
 
 import { LessonsData } from "~/lib/definitions";
-import { RightButton, LeftButton } from "~/ui/buttons";
-import { MultipleChoiceExercise } from "~/ui/multipleChoiceExercise";
-import { VideoExercise } from "~/ui/videoExercise";
+import { RightButton, LeftButton } from "~/ui/components";
+import { VideoExercise, MultipleChoiceExercise } from "~/ui/exercises";
 
 export const meta: MetaFunction = () => {
   return [
